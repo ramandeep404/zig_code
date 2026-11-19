@@ -1,0 +1,11 @@
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.exe
+*.pdb
+*.obj
+
+# Nested/local folders
+zigcourse/
+New Text Document.txt

@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Zig Program",
+            "type": "shell",
+            "command": "zig run ${file}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile Zig Program",
+            "type": "shell",
+            "command": "zig build-exe ${file}",
+            "problemMatcher": []
+        }
+    ]
+}
